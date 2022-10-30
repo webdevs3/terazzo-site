@@ -55,7 +55,7 @@ nav ul li a:hover{
     }
     .nav ul.slide{
         left: 0;
-        transition: 2s;
+        transition: 1s;
 
     }
         .hamburger{
