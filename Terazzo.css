@@ -46,7 +46,7 @@ nav ul li a:hover{
         padding: 0;
         top: 50px;
         left: -100%;
-        transition: 2s;
+        transition: 1s;
     }
     .nav ul li{
         display: block;
