@@ -42,6 +42,11 @@ nav ul li{
     line-height: 50px;
     padding: 05px;
     right: 50%;
+     float: right;
+
+    position: relative;
+    left: -150%; /* or right 50% */
+    text-align: left;
    
    
     
