@@ -3,10 +3,19 @@
 <head> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
     <title>Terazzo</title>
     <link rel="icon" type="image/x-icon" href="../img/fav_icon.png" />
-    <link rel="stylesheet" href="../css/Terazzo2.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    
+    <link rel="stylesheet" href="../css/terazzo3.css">
+   <style>
+.mySlides {
+    display:none;
+}
+</style>
 </head>
 <body>
 <nav class="nav">
@@ -16,7 +25,7 @@
         <li><a href="#">Home</a></li>
         <li><a href="#">About us</a></li>
 
-        <li><a href="../../product_page/html/ppage.html">Product</a></li>
+        <li><a href="#">Product</a></li>
 
         <li><a href="#">FAQ</a></li>
         <li><a href="#">Contact Us</a></li>
@@ -34,55 +43,52 @@
 
  <!-- Slideshow container -->
 
- <section aria-label="Newest Photos">
+<div class="slide-container" style="max-width: 100%;">
+<img class="mySlides" src="../img/img1.jpg" style="width: 100%;">
+<img class="mySlides" src="../img/img2.jpg" style="width: 100%;">
+<img class="mySlides" src="../img/img3.jpg" style="width: 100%;">
+<img class="mySlides" src="../img/img4.jpg" style="width: 100%;">
+<img class="mySlides" src="../img/img5.jpg" style="width: 100%;">
+</div>
+<script>
+var myIndex = 0;
+carousel();
 
-    
-
-    <div class="carousel" data-carousel>
-      <button class="carousel-button prev" data-carousel-button="prev"><</button>
-      <button class="carousel-button next" data-carousel-button="next">></button>
-      <ul data-slides>
-        <li class="slider" data-active>
-          <img src="../img/img1.jpg" alt="#1">
-        </li>
-        <li class="slider">
-          <img src="../img/img2.jpg" alt="#2">
-        </li>
-        <li class="slider">
-          <img src="../img/img3.jpg" alt="#3">
-        </li>
-        <li class="slider">
-            <img src="../img/img4.jpg" alt="#4">
-        </li>
-        <li class="slider">
-            <img src="../img/img5.jpg" alt="#5">
-        </li>
-      </ul>
-    </div>
-  </section>
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2300); // Change image every 2 seconds
+}
+</script>
 
 
  <div class="why-terazzo">
-     <h3 id="why-terazzo-id">Why Terazzo Laminate Flooring?</h3>
-     <p id="why-terazzo-id">Simply put, it’s an ultra-durable product that looks like a real wood, yet costs about one-third less than the real wood. It is easier to install and typically lasts longer.</p>
+     <h1 id="why-terazzo-id" style="color: rgb(212,229,246);">Why Terazzo Laminate Flooring?</h1>
+     <p id="why-terazzo-id" style="text-align:justify;">Simply put, it’s an ultra-durable product that looks like a real wood, yet costs about one-third less than the real wood. It is easier to install and typically lasts longer.</p>
  </div>
 
 <div class="after-image-content">
 <div class="outer-cont">
 
-     <div class="cont">
-             <h2 class="inner-cont" style="margin-top:60px;">Installation & Maintenance</h2> <br>
-             <p class="inner-cont" style="text-align:justify;">
+     <div class="cont" style="margin-top:60px;margin-bottom: 140px;">
+             <h2 class="inner-cont" style="font-size:30px;" >Installation & Maintenance</h2> <br>
+             <p class="inner-cont">
             Terazzo is as close to “maintenance-free” as a floor can get. The high pressure laminate surface makes it virtually impossible for dirt or grime to get a foothold.<br />
             We have created the Terazzo certified Installer program to give the customers a flawless installation to bring back the ethnic and artistic look. Terazzo Certified Installers are given three- month training programme on installation. Terazzo Experienced Certified Installers are specially trained and certified to expertly install any Terazzo flooring product. Terazzo Tested Certified Installers must pass a rigorous hands-on and written exam to become certified. 
             </p><br>
-            <div class="inner-cont"><button class="read-more" style="margin-bottom: 65px;">Read More</button>
+            <div class="inner-cont"><button style="font-size: .85em;"class="read-more" >Read More</button>
         </div> 
     </div>
 </div>
 
-    <div class="cont">
-            <h2 style="text-align: center;margin-top:60px;">Warranty</h2>
+    <div class="cont" style="margin-top:60px;">
+            <h2 style="text-align: center;">Warranty</h2>
              <br />
 
             <div class="img">
@@ -98,32 +104,47 @@
 
 
 <div class="product-container">
-        <div><h2 style="text-align: center;">Products</h2></div>
-
+        <div><h2 style="text-align: center; padding-top: 10px;">Products</h2></div>
 
         <div class="products">
 
-        <img src="../img/prod_img1.png" alt="">
-        <img src="../img/prod_img2.png" alt="">
-        <img src="../img/prod_img3.png" alt="">
-        <img #id="prod_img4" src="../img/prod_img4.jpg" alt="">
-        <img src="../img/prod_img5.png" alt="">
-            
+            <div class="prod1"> 
+                <h3>Laminated <br> Wooden <br> Flooring</h3>
+                <img class="prod-img1" src="../img/prod_img1.png" alt="">
+            </div>
+        <div class="prod1">
+    <h3 style="padding-top: 55px;"> Elevation <br> Stone</h3><img src="../img/prod_img2.png" alt="">
+</div>
+
+
+        <div class="prod1">
+    <h3> Engineered <br> & Solid <br> Wood</h3><img src="../img/prod_img3.png" alt="">
+</div>
+
+<div class="prod1">
+    <h3 style="padding-top: 55px;"> Outdoor <br> Deck</h3><img class="prod-img4" src="../img/prod_img4.jpg" alt="">
+</div>
+
+<div class="prod1">
+    <h3 style="padding-top: 55px;"> Sports <br> Flooring</h3><img src="../img/prod_img5.png" alt="">
+</div>
 
         </div>
 </div>
 
-<div class="youtube-container">
+<div class="youtube-container"  style="padding-top: 10px;">
         <div class="vid-title"><h2>Videos</h2></div>
 
         <div class="youtube">
-                <div class="vid">
+
+
+<div class="vid">
                     <iframe width="400" height="200" src="https://www.youtube.com/embed/usWDl-Vy5YA"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
-
+            
                 <div class="vid">
                     <iframe width="400" height="200" src="https://www.youtube.com/embed/QeQKGvnivBc"
                         title="YouTube video player" frameborder="0"
@@ -219,13 +240,13 @@
         </div>
         
     </div>
-    <di  v class="f-bottom">
+    <div class="f-bottom">
         <h5>&copy;Terazzo | Designed by Nawaz</h5>
     </div>
 
 </div>
 
-  <script src="../js/Terazzo.js"></script>
+     <script src="../js/terazzo1.js"></script>
 
 </body>
 </html>
