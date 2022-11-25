@@ -1,0 +1,138 @@
+@media (max-width:1366px) {
+
+    /*nav bar he */
+    nav {
+        height: 55;
+    }
+
+    nav .social_media {
+        height: 35px;
+        margin: 5px 5px;
+    }
+
+    nav .social_media img {
+        height: 35px;
+        margin: 5px 10px;
+
+    }
+
+    /*below slider content */
+
+    .context .text .why_terazzo .button a,
+    .context .text .warrenty .button a {
+        text-decoration: none;
+        color: #141518;
+        font-size: 16px;
+        background-color: rgb(19, 100, 154);
+        color: white;
+        border: 2px solid rgb(19, 100, 154);
+        border-radius: 15px;
+        padding: 6px;
+
+    }
+
+
+    /*warranty he */
+    .images {
+        display: flex;
+        justify-content: space-around;
+        margin: 40px 0px;
+    }
+
+    .images .head h2 {
+        font-size: 24px;
+        width: 370px;
+    }
+
+    .images img {
+        width: 370px;
+    }
+
+    .pruducts {
+        width: 100%;
+
+    }
+
+    /*product in the home yo */
+    .product-area .head h2 {
+        font-size: 24px;
+    }
+
+    .product-area .products .product img {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+    }
+
+    .product-area .products .product1 img {
+        position: relative;
+        width: 300px;
+        height: 300px;
+
+        /*height: 322.31px;*/
+        border-radius: 10px;
+
+    }
+
+    .product-area .products .product h3 {
+        position: absolute;
+        z-index: 1;
+        font-size: 22px;
+        text-align: center;
+        width: 300px;
+        height: 300px;
+
+        color: transparent;
+    }
+
+    .product-area .products .product1 h3 {
+        position: absolute;
+        z-index: 1;
+        font-size: 22px;
+        text-align: center;
+        width: 300px;
+        height: 300px;
+
+        color: transparent;
+    }
+
+    .product-area .products .product:hover h3 {
+        color: white;
+        background-color: #14151880;
+        border-radius: 10px;
+        padding-top: 115px;
+
+    }
+
+    .product-area .products .product1:hover h3 {
+        color: white;
+        background-color: #14151880;
+        border-radius: 10px;
+        padding-top: 115px;
+
+
+    }
+
+    .product-area .products {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        border-radius: 10px;
+
+
+
+    }
+
+    .product-area .products .product {
+        margin: 20px 50px;
+
+    }
+
+    .product-area .products .product1 {
+        margin: 20px 50px;
+
+    }
+}
