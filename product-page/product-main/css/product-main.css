@@ -1,0 +1,348 @@
+
+/*dark blue to light blue
+rgb(19,100,154)
+rgb(0,141,208)
+rgb(147,194,232)
+rgb(212,229,246)
+*/
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+
+}
+nav{
+    display: flex;
+    height: 60px;
+    background-color:#141518;
+    color: white;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 8;
+    top: 0;
+    width: 100%;
+    
+}
+nav .logo{
+  width: 251.7;
+}
+nav .logo img{
+    height: 50px;
+    margin: 5px ;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0,141,208);
+    text-align: center;
+    padding: 16px;
+    font-size: 18px;
+    padding-top: 15px;
+    text-decoration: none;
+    height: 60px;
+    font-weight: 900;
+    border: 6px solid transparent;
+
+  }
+  li a:hover{
+    font-size: 19px;
+    color: rgb(0,141,208);
+    
+
+   
+  }
+  nav .social_media {
+    height: 40px;
+    margin: 10px;
+
+  }
+  nav .social_media img{
+    height: 40px;
+    margin: 10px 10px;
+  }
+  /* hamburger */
+  .hamburger{
+    display: none;
+    cursor: pointer;
+    margin:10px 10px;
+  }
+  .hamburger .bar{
+    display: block;
+    width: 40px;
+    height: 5px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color:rgb(0,141,208);
+
+  }
+
+
+
+
+.nav ul {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0px;
+    top: 50px;
+    left: -100%;
+    transition: 2s;
+}
+
+.nav ul li {
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+.nav ul.slide {
+    left: 0;
+    transition: 2s;
+
+}
+
+.hamburger {
+    float: left;
+    padding-left: 20px;
+    padding-top: 12px;
+}
+
+.hamburger .line {
+    width: 30px;
+    height: 5px;
+    background-color: #157bad;
+    margin-bottom: 5px;
+    display: block;
+}
+
+
+h1{
+margin-top: 60px;
+width: 100%;
+height:60px;
+color: #141518;
+background-color: rgb(19,100,154);
+text-align: center;
+font-weight: bolder;
+padding-top: 10px;
+border-top:2px solid rgb(2, 136, 208);
+border-bottom: 2px solid rgb(2, 136, 208);
+
+}
+.product{
+width: 100%;
+display: flex;
+flex-direction: row;
+
+
+}
+.product img{
+width: 320px;
+height: 320px;
+display: block;
+/* border-radius: 50%; */
+
+}
+.product{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 600px;
+    max-height: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+}
+
+.product{
+    background-color: #ffffff  ;
+    padding-bottom: 20px;
+    
+
+}
+/* .product1,.product2,.product3,.product4,.product5{
+    display: flex;
+    width:320px;
+    height: 700px;
+    flex-direction: column;
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 160px;
+    margin-top: 50px;  
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 2px 2px 30px black;
+    margin-right: 30px;
+    margin-left: 30px;
+    overflow :hidden;
+}
+.product{
+    align-items: center;
+}
+
+.description .name h2{
+    margin-top: 30px;
+    text-align: center;
+    color: #003e89;
+    border-top: 5px solid #027ccd;
+    border-bottom: 5px solid #027ccd;
+    height: 70px;
+    width: 300px;
+    padding-top: 18px;
+    
+   
+
+}
+.product3 .description .name h2{
+    padding-top:5px;
+}
+.description .options p{
+    margin: 20px auto;
+    text-align: center;
+    font-size: 17px;
+
+}
+.description .options p:hover{
+    font-weight: bold;
+    color: #003e89;
+    font-size: 18px;
+}
+.product1:hover,.product2:hover,.product3:hover,.product4:hover,.product5:hover{
+
+} */
+.product1,.product2,.product3,.product4,.product5{
+
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(19,100,154);
+    width: 320px;
+    height: 440px;
+    overflow: hidden;
+    border-radius: 30px;
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+
+}
+.product1 .card .name,.product2 .card .name,.product3 .card .name,.product4 .card .name,.product5 .card .name{
+        margin: 0 10px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 10px 0px;
+        text-align: center;
+        border: 1px transparent;
+        border-radius: 15px;
+        /* border-bottom: 5px solid #027ccd; */
+        color: #141518;
+        font-style:oblique;
+        
+}
+.product1 p,.product2 p,.product3 p,.product4 p,.product5 .description p{
+    text-align: center;
+    margin: 20px;
+    color: #141518;
+    
+}
+.product1:hover,.product5:hover,.product3:hover,.product4:hover{
+        height: 590px;
+        transition: 0.5s;
+        border-radius: 30px;
+        border: 0px;
+
+}
+.product2:hover{
+    height: 850px;
+    transition: 1s;
+}
+.description p{
+  font-size: 18px;
+}
+.description p:hover{
+    font-weight: bold;
+    
+    font-size: 20px;
+}
+
+.product1:hover img,.product5:hover img,.product3:hover img,.product4:hover img,.product2:hover img{
+   
+    transition: 0.5s;
+    border-radius: 30px;
+    /* height: 320px;
+    width: 320px; */
+
+}
+.product1:hover h2,.product5:hover h2,.product3:hover h2,.product4:hover h2,.product2:hover h2{
+    border-radius: 15px ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+/* footer */
+.footer{
+ 
+  background-color: #141518;
+  color: white;
+  height: auto; 
+  /*height: 400px; */
+  position: relative;
+}
+
+.footer .f-content{
+  
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 18px;
+
+}
+.footer .f-content h2{
+  color:rgb(0,141,208) ;
+}
+.footer .f-content div {
+  width: 300px;
+  height: auto;
+  
+  padding-top: 35px;
+  padding-left: 30px;
+}
+
+.footer .f-content div p{
+  padding-bottom: 58px;
+}
+.footer .f-bottom h5{
+  margin: 0;
+ background: #141518;
+ color: white;
+  width: 100%;
+  height: 50px;
+
+  text-align: center;
+  line-height: 50px;
+  position: absolute;
+  left: 0;
+  /*padding-bottom: 0;*/
+}
+
+
+
+
+
