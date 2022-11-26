@@ -101,6 +101,8 @@ nav .logo{
 .aboutus-head{
     margin-top: 60px;
     margin-bottom: 0;
+    height: 60px;
+    line-height: 55px;
     background: rgb(0,141,208); 
     text-align: center;
  }
