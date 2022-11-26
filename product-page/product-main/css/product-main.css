@@ -60,11 +60,7 @@ ul {
 
   }
   li a:hover{
-    font-size: 19px;
-    color: rgb(0,141,208);
-    
-
-   
+    color: rgb(77, 198, 255);
   }
    nav .social_media {
     height: 30px;
@@ -311,7 +307,7 @@ display: block;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  font-size: 18px;
+  font-size: 16px;
 
 }
 .footer .f-content h2{
