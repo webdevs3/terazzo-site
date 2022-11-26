@@ -24,11 +24,8 @@
   
   }
   li a:hover{
-    font-size: 26px;
-    color: rgb(0,141,208);
-    
-  
-   
+        color: rgb(77, 198, 255);
+
   }
   nav .social_media {
     height: 60px;
@@ -42,6 +39,9 @@
   .head1{
     margin-top: 80px;
   }
+  .footer .f-content{
+font-size: 18px;
   
+  }
    
 }
