@@ -227,7 +227,7 @@ ul {
 }
 .context .button1{
   margin-top: 10px;
-  width: 100%;
+  width: auto;
   
 }
 .context .button1 a:hover{
