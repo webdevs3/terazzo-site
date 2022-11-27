@@ -73,5 +73,15 @@
    .product-area{
         background-image: url(../images/977pbackground.jpg);
       }
+   .button{
+        display: flex;
+        justify-content: center;
+        font-size: small;
+      }
+      .context .button1{
+        display: flex;
+        justify-content: center;
+      }
+
     
 }
