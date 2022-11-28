@@ -65,6 +65,9 @@
    .context .text .why_terazzo,.context .text .warrenty{
       margin-left:10px;
    }
+   .context .text .warrenty{
+      margin-top:50px;
+   }
    .product-area .products .product{
         margin:20px 20px;
       
