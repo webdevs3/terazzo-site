@@ -30,6 +30,18 @@
         padding: 6px;
 
     }
+    
+    .context .button2 {
+        display: none;
+    }
+    .context .button1 {
+        display:block;
+    }
+    
+    .context .button1 a {
+        padding: 6px;
+        font-size: 16px;
+    }
 
 
     /*warranty he */
