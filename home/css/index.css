@@ -234,6 +234,26 @@ ul {
   color: #141518;
   background-color: white;
 }
+.context .button2 a{
+  text-decoration: none;
+  color: #141518;
+  font-size: 22px;
+  background-color: rgb(19,100,154);
+  color: white;
+  border: 2px solid rgb(19,100,154);
+  border-radius: 15px;
+  padding: 6px;
+
+}
+.context .button2{
+  margin-top: 10px;
+  width: auto;
+  
+}
+.context .button2 a:hover{
+  color: #141518;
+  background-color: white;
+}
 
 
 /* product area */
