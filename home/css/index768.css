@@ -55,7 +55,9 @@
     nav .social_media  img{
        left: 0;
     }
-    
+    .context{
+        width: 100%;
+    }
     .context .text{
         flex-direction: column;
     }
