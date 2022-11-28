@@ -86,10 +86,17 @@
         justify-content: center;
         font-size: small;
       }
-      .context .button1{
+      .context .button1 {
+        display: none;
+      }
+      .context .button2{
         display: flex;
         justify-content: center;
       }
+      .context .button2 a {
+        padding: 6px;
+        font-size: 16px;
+    }
 
     
 }
