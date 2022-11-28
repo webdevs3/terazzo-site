@@ -60,9 +60,11 @@
     }
     .context .text{
         flex-direction: column;
+       align-items:center;
     }
     .context .images{
         flex-direction: column;
+       align-items:center;
     }
    .context .text .why_terazzo,.context .text .warrenty{
       margin-left:10px;
