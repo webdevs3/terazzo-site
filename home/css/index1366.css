@@ -52,6 +52,14 @@
         width: 100%;
 
     }
+   .button1 a{
+       padding: 6px;
+       font-size: 16px;
+    }
+    .button1 {
+        padding-left: 90px;
+    }
+       
 
     /*product in the home yo */
     .product-area .head h2 {
